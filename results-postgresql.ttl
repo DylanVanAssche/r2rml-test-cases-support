@@ -3,7 +3,7 @@
 <http://kg-construct.github.io/r2rml-implementation-report/TestSubject/RMLMapper-PostgreSQL> <http://purl.org/dc/terms/hasPart> <https://www.postgresql.org/>.
 <http://kg-construct.github.io/r2rml-implementation-report/TestSubject/RMLMapper-PostgreSQL> <http://purl.org/dc/terms/date> "2021-04-13"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://kg-construct.github.io/r2rml-implementation-report/TestSubject/RMLMapper-PostgreSQL> <http://usefulinc.com/ns/doap#name> "RMLMapper-PostgreSQL".
-<http://kg-construct.github.io/r2rml-implementation-report/TestSubject/RMLMapper-PostgreSQL> <http://usefulinc.com/ns/doap#created> "2013-12-01"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://kg-construct.github.io/r2rml-implementation-report/TestSubject/RMLMapper-PostgreSQL> <http://usefulinc.com/ns/doap#created> "2018-04-18"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://kg-construct.github.io/r2rml-implementation-report/TestSubject/RMLMapper-PostgreSQL> <http://usefulinc.com/ns/doap#homepage> <https://github.com/rmlio/rmlmapper-java>.
 <http://kg-construct.github.io/r2rml-implementation-report/TestSubject/RMLMapper-PostgreSQL> <http://usefulinc.com/ns/doap#release> "4.9.4".
 <http://kg-construct.github.io/r2rml-implementation-report/Assertor/Dylan%20Van%20Assche> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>.
