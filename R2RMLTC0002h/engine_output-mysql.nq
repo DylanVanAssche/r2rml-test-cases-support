@@ -1,1 +1,1 @@
-<http://example.com/base/1> <http://example.com/id> "10".
+<http://example.com/base/1> <http://example.com/id> "10"^^<http://www.w3.org/2001/XMLSchema#integer>.
