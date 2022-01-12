@@ -16,12 +16,12 @@ Test the capabilities of your R2RML engine with the [R2RML test cases](https://w
 
 ## RDBMS coverage and properties info:
 
-- MySQL (`port = 3306`)
-- PostgreSQL (`port = 5432`)
+- MySQL v8.0 (`port = 3306`)
+- PostgreSQL v13.4 (`port = 5432`)
 
 Connection properties for any RDBMS are: `database = r2rml, user = r2rml, password = r2rml`.
 
-For testing purposes, **mapping path is invariable, it is always `./r2rml.ttl`**
+For testing purposes, **mapping path is invariable, it is always `./r2rml.ttl`** and **the base IRI of the output is http://example.com/base/**
 
 
 ## Steps to generate the results from the R2RML test-cases:
@@ -61,3 +61,6 @@ engine_command: java -jar morph-rdb.jar -p properties.properties # command to ru
 Overview of the testing steps:
 ![Testing setp](misc/test.png?raw=true "Testing setp")
 
+
+### Notes
+- The MySQL Docker container stores timestamps as UTC. Values that are retrieved from the database may therefore not correspond with the time zone of the host. If you notice that a test fails because the times are off, try appending `?useLegacyDatetimeCode=false&serverTimezone=XXX`, where `XXX` corresponds with your [IANA Time Zone Database](https://www.iana.org/time-zones) entry (e.g., `Europe/Brussels`), to the JDBC connection URL.
