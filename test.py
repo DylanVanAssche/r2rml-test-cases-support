@@ -98,7 +98,7 @@ def database_load(database_script):
         cursor.close()
         cnx.close()
 
-    elif database_abcsystem == "postgresql":
+    elif database_system == "postgresql":
         host = os.environ.get('HOST', 'localhost')
         cnx = psycopg2.connect("dbname='r2rml' user='r2rml' host='" + host + "' password='r2rml'")
         cursor = cnx.cursor()
